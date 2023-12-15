@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+
+            <div class="show_container">
+                <h1 >Coustemer Testimonials
+                   <hr>
+
+                </h1>
+                <div class="show_card">         
+                    <img id="img" src='' alt=""><br>
+                    <b id="name"></b>   
+                    <p id="con"></p>       
+                    <button id="pre" onclick="change(this)">&#60;</button>  <button id="next" onclick="change(this)">&#62;</button>     
+                </div>       
+               
+                
+            </div>
+
+<style>
+      
+
+body{
+    background-color: #F1F4F9;
+}
+
+  hr{
+    width:10%;
+    height:5px;
+    background-color: #8CC6F2;
+  }
+
+h1{
+    line-height: 5px;
+}
+    *{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .none{
+        display:none;
+    }
+    img{
+        width: 100px;
+        border-radius: 50%;
+        height: 100px;
+
+    }
+
+    .show_card{
+        width: 300px;
+        margin:0 auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow:1px 1px 2px gray;
+    }
+
+button{
+    border: none;
+    color: darkcyan;
+   cursor: pointer;
+    background: none;
+    font-size: 20px;
+}
+
+    .card{
+        width: 300px;
+    }
+
+    .show_container{
+    margin:200px auto;
+    width: 500px;
+    text-align: center;
+        
+    }
+
+    
+
+    /* button{
+       border:none;
+        color: aqua;
+        width: 14px;
+        background-color: white;
+    } */
+    
+    span{
+        color: gray;
+    }
+</style>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
